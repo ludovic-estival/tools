@@ -46,41 +46,41 @@
   -->
   <div class="container pt-5">
     <div class="row pt-1">
-      <p>a</p>
+      <p id="resultat"></p>
     </div>
     <div class="row pt-1">
       <div class="col">
-        <button type="button" class="btn btn-secondary btn-lg">5</button>
-        <button type="button" class="btn btn-secondary btn-lg">6</button>
-        <button type="button" class="btn btn-secondary btn-lg">7</button>
-        <button type="button" class="btn btn-secondary btn-lg">8</button>
-        <button type="button" class="btn btn-secondary btn-lg">9</button>
+        <button id="5" onclick="ajouter(5)" type="button" class="btn btn-secondary btn-lg">5</button>
+        <button id="6" onclick="ajouter(6)" type="button" class="btn btn-secondary btn-lg">6</button>
+        <button id="7" onclick="ajouter(7)" type="button" class="btn btn-secondary btn-lg">7</button>
+        <button id="8" onclick="ajouter(8)" type="button" class="btn btn-secondary btn-lg">8</button>
+        <button id="9" onclick="ajouter(9)" type="button" class="btn btn-secondary btn-lg">9</button>
       </div>
     </div>
     
     <div class="row pt-1">
       <div class="col">
-        <button type="button" class="btn btn-secondary btn-lg">0</button>
-        <button type="button" class="btn btn-secondary btn-lg">1</button>
-        <button type="button" class="btn btn-secondary btn-lg">2</button>
-        <button type="button" class="btn btn-secondary btn-lg">3</button>
-        <button type="button" class="btn btn-secondary btn-lg">4</button>
+        <button id="0" onclick="ajouter(0)" type="button" class="btn btn-secondary btn-lg">0</button>
+        <button id="1" onclick="ajouter(1)" type="button" class="btn btn-secondary btn-lg">1</button>
+        <button id="2" onclick="ajouter(2)" type="button" class="btn btn-secondary btn-lg">2</button>
+        <button id="3" onclick="ajouter(3)" type="button" class="btn btn-secondary btn-lg">3</button>
+        <button id="4" onclick="ajouter(4)" type="button" class="btn btn-secondary btn-lg">4</button>
       </div>
     </div>
     
     <div class="row pt-1">
       <div class="col">
-        <button type="button" class="btn btn-secondary btn-lg">/</button>
-        <button type="button" class="btn btn-secondary btn-lg">x</button>
-        <button type="button" class="btn btn-secondary btn-lg">+</button>
-        <button type="button" class="btn btn-secondary btn-lg">-</button>
-        <button type="button" class="btn btn-secondary btn-lg">(-)</button>
+        <button id="divi" onclick="operation('division')" type="button" class="btn btn-secondary btn-lg">/</button>
+        <button id="multi" onclick="operation('multiplication')" type="button" class="btn btn-secondary btn-lg">x</button>
+        <button id="addi" onclick="operation('addition')" type="button" class="btn btn-secondary btn-lg">+</button>
+        <button id="soust" onclick="operation('soustraction')" type="button" class="btn btn-secondary btn-lg">-</button>
+        <button id="negate" onclick="operation('negatif')" type="button" class="btn btn-secondary btn-lg">(-)</button>
       </div>
     </div>
     
     <div class="row pt-1">
       <div class="col">
-        <button type="button" class="btn btn-primary btn-lg">=</button>
+        <button id="egal" type="button" class="btn btn-primary btn-lg">=</button>
       </div>
     </div>
     
