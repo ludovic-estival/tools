@@ -5,3 +5,29 @@ p{
 img{
     width: 250px;
 }
+
+/*--------------------------------------*/
+
+.formulaire{
+    margin: 5%;
+}
+
+form{
+    font-size: 22px;
+    margin-left: 2%;
+}
+
+td{
+    padding: 2%;
+}
+
+input[type=text]{
+    border-radius: 20px;
+}
+
+input[type=button]{
+    border-radius: 20px;
+    background-color: rgb(0, 170, 23);
+    color: white;
+    border-color: white;
+}
